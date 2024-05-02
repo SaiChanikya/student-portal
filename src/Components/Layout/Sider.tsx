@@ -18,6 +18,14 @@ function AppSider() {
             label: "Profile",
             key: "profile",
         },
+        {
+            label: "Financial AID",
+            key: "financial-aid",
+        },
+        {
+            label: "My Grades",
+            key: "my-grades",
+        },
     ];
 
     function openScreen(screen: string) {

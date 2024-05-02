@@ -6,6 +6,7 @@ import Profile from './Components/Profile';
 import "antd/dist/antd.variable.min.css";
 import Signup from './Components/Signup';
 import { BrowserRouter as Router } from 'react-router-dom';
+import MyGrades from './Components/MyGrades';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/sign-up" exact component={Signup} />
         <Route path="/home" component={Home} />
         <Route path="/profile" component={Profile} />
+        <Route path="/my-grades" component={MyGrades} />
       </Switch>
     </Router>
   );
