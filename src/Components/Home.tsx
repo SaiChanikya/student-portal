@@ -14,12 +14,16 @@ function Home() {
     const lastName = localStorage.getItem("last_name")
 
     return <MainLayout>
-        <div style={{ padding: "20px 0 20px 0", fontSize: "35px", fontWeight: "600" }}>
+        <div style={{ padding: "20px 0 20px 0", fontSize: "35px", fontWeight: "600", textAlign: "center" }}>
             Welcome {firstName} {lastName} <br />
         </div>
 
-        <div>
-            <img src={`${window.location.origin}/student/Student1.jpeg`} height={"50%"} width={'30%'} />
+        <div style={{ textAlign: "center", padding: "20px 0" }}>
+            <img src={`${window.location.origin}/student/Student1.jpeg`} height={"60%"} width={'40%'} />
+        </div>
+
+        <div style={{ padding: "20px 0 20px 0", fontSize: "25px", textAlign: "center" }}>
+            the entire online platform which provides students with various academic resources such as course schedules, contacts, grades, class materials, etc. An online platform or website that serves as a centralized hub for students to access academic information, services, and resources real-time within their educational institution.
         </div>
 
     </MainLayout>

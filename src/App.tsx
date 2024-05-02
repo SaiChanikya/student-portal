@@ -7,6 +7,7 @@ import "antd/dist/antd.variable.min.css";
 import Signup from './Components/Signup';
 import { BrowserRouter as Router } from 'react-router-dom';
 import MyGrades from './Components/MyGrades';
+import FinancialAID from './Components/FinancialAID';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/home" component={Home} />
         <Route path="/profile" component={Profile} />
         <Route path="/my-grades" component={MyGrades} />
+        <Route path="/financial-aid" component={FinancialAID} />
       </Switch>
     </Router>
   );
