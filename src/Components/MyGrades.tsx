@@ -17,19 +17,14 @@ function MyGrades() {
 
     const columns = [
         {
-            title: "User ID",
-            dataIndex: "user_id",
-            width: "40%"
-        },
-        {
             title: "Subject",
             dataIndex: "subject",
-            width: "40%"
+            width: "70%"
         },
         {
             title: "Grades",
             dataIndex: "grades",
-            width: "20%",
+            width: "30%",
             render: (text: any, record: any) => <>{record.grades} / 5</>
         }
     ]
